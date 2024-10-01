@@ -1,0 +1,19 @@
+meta {
+  name: fetch markers
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://api.airtable.com/v0/apptOud8TXl4wf5AL/markers?&view=Grid%20view
+  body: json
+  auth: none
+}
+
+params:query {
+  view: Grid%20view
+}
+
+headers {
+  Authorization: Bearer patUoZ9n3nnQvAEO8.9d9956ab0036bf102df7244b430bf304de7ed66ac102157338debe057c0b0150
+}

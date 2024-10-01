@@ -1,0 +1,26 @@
+meta {
+  name: new marker
+  type: http
+  seq: 3
+}
+
+post {
+  url: https://api.airtable.com/v0/apptOud8TXl4wf5AL/markers
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: Bearer patUoZ9n3nnQvAEO8.9d9956ab0036bf102df7244b430bf304de7ed66ac102157338debe057c0b0150
+}
+
+body:json {
+  {
+    "fields": {
+      "lat": 0,
+      "lng": 0,
+      "title": "title_value",
+      "description": "description_value"
+    }
+  }
+}
